@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/AppTheme">
+
+    <AutoCompleteTextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/roadname"
+        android:textAlignment="center"
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:selectAllOnFocus="true"
+        android:dropDownSelector="#211b1b"
+        android:drawableTint="#cc2222"
+        android:autoText="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progress"
+        android:id="@+id/button6"
+        android:layout_below="@+id/autoCompleteTextView2"
+        android:layout_marginTop="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
